@@ -23,22 +23,22 @@
 		"bg-primary-50 text-primary-600 dark:bg-primary-950 dark:text-primary-400 flex items-center justify-center rounded-full";
 
 	const benefits = [
-		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
-		},
-		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
-		}
-	];
+  {
+    title: "Make a real impact",
+    description: "Work on real problems and see the results of your effort every day.",
+    icon: IconBriefcase
+  },
+  {
+    title: "Grow without limits",
+    description: "Learning stipends, mentorship, stretch projects, and the freedom to chart your own path.",
+    icon: IconUsers
+  },
+  {
+    title: "Flexibility you can count on",
+    description: "Remote-first, flexible hours, and a true respect for work-life balance.",
+    icon: IconHeart
+  }
+];
 
 	const openings: JobOpening[] = [
 		// Engineering
@@ -121,78 +121,85 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Sofia Martinez",
+    position: "Associate Product Manager",
+    company: "Product Team",
+    quote:
+      "It feels like everyone genuinely wants you to succeed—across teams, levels, all of it. That kind of support makes it easy to bring your best every day.",
+    image: "/generated/image-a-latina-woman-in-a-contemporary-office-.webp"
+  },
+  {
+    name: "James Okoro",
+    position: "Director of Engineering",
+    company: "Engineering Team",
+    quote:
+      "I've grown more in the last 18 months than I did in the five years prior. The leadership track here is clearly mapped, but there's also room to make it your own.",
+    image: "/generated/image-a-black-man-in-an-engineering-leadership.webp"
+  },
+  {
+    name: "Emily Nguyen",
+    position: "Designer",
+    company: "Creative Team",
+    quote:
+      "I can actually focus here. The tools are solid, meetings have a purpose, and folks respect heads-down time. That vibe? It adds up.",
+    image: "/generated/image-a-vietnamese-american-woman-designer-dee.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Submit your application",
+    description: "Send your resume and a few lines about why you’re interested—no cover letter needed."
+  },
+  {
+    step: 2,
+    title: "Intro call",
+    description: "A short conversation about mutual fit and your career goals."
+  },
+  {
+    step: 3,
+    title: "Team interviews",
+    description: "Chat with future teammates, discuss your experience, and walk through some practical challenges."
+  },
+  {
+    step: 4,
+    title: "Final chat & offer",
+    description: "Ask anything—if it’s a fit for both sides, we’ll move fast with a formal offer."
+  }
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+  {
+    title: "Low-ego, high-trust",
+    description: "We hire for curiosity, not ego. Collaboration thrives on candor and support."
+  },
+  {
+    title: "Default open",
+    description: "We share information freely and believe everyone’s voice should shape our direction."
+  },
+  {
+    title: "Think systems, not silos",
+    description: "Great products come from crossing boundaries—close collaboration beats hierarchy."
+  },
+  {
+    title: "Feedback first",
+    description: "Kind, clear feedback is how we get better—no guesswork, just growth."
+  },
+  {
+    title: "Speed with intention",
+    description: "We operate quickly, but consciously—respecting thoughtfulness and debate along the way."
+  }
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Build software that transforms how teams work"
+	subtitle="Join caring people, tackle meaningful problems, and shape the future of collaboration"
+	imageSrc="/generated/image-a-modern-office-environment-showcasing-a.webp"
 />
 
 <!-- Why Join Us Section -->
