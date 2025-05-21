@@ -11,12 +11,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+  centered={true}
+  title="Design and development for teams ready to excel."
+  subtitle="Create standout products that drive market leadership."
+  imageSrc="/generated/image-a-diverse-team-collaborating-in-a-modern.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		"https://logo.clearbit.com/slack.com",
+		"https://logo.clearbit.com/airbnb.com",
+		"https://logo.clearbit.com/stripe.com",
+		"https://logo.clearbit.com/zendesk.com"
+	]}
+/>
 
 <Summary
 	generating
